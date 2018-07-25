@@ -5,10 +5,16 @@ body {
 
 .header {
   background-image: url(https://87designer.github.io/broadway/resources/images/the-flatiron-building.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .header li {
   margin: 10px;
+}
+
+.header ul {
+  padding-left: 0px;
 }
 
 ul {
@@ -52,6 +58,8 @@ h3 {
 
 .h3bkg {
   background-image: url(https://87designer.github.io/broadway/resources/images/the-flatiron-building.png);
+  background-position: center;
+  background-size: cover;
   font-size: 23px;
   font-weight: bold;
   color: white;
