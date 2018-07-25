@@ -1,4 +1,4 @@
-html {
+body {
   text-align:center;
   font-family: Helvetica;
 }
@@ -7,7 +7,11 @@ html {
   background-image: url(https://87designer.github.io/broadway/resources/images/the-flatiron-building.png);
 }
 
-.topnav {
+.header li {
+  margin: 10px;
+}
+
+ul {
   list-style: none;
 }
 
@@ -15,7 +19,10 @@ html {
   background-color: dimgray;
   text-align: left;
   color: white;
+}
 
+.footer ul {
+  padding-left: 0px;
 }
 
 .footer li {
@@ -33,8 +40,25 @@ h1 {
   color: white;
 }
 
-li {
-  margin: 10px;
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.h3bkg {
+  background-image: url(https://87designer.github.io/broadway/resources/images/the-flatiron-building.png);
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-size: 14px;
 }
 
 a {
